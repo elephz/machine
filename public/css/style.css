@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: black;
+}
+*{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+.card_product {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    position: relative;
+  }
+  .outstock{
+    position: absolute;
+    color:white;
+    font-size: 28px;
+    -ms-transform: rotate(-20deg); /* IE 9 */
+    transform: rotate(-20deg);
+    top: 30px;
+    right: 30px;
+    z-index: 2;
+    opacity: 0.7;
+    background-color: red;
+    border-radius: 5px;
+    padding:5px;
+  }
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  .outstockbtn{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    text-align: center;
+     cursor: no-drop;
+     padding: 12px;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  .btn-nomal {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  .btn-nomal:hover {
+    opacity: 0.9;
+  }
+
+.btn-disabel{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  text-align: center;
+   cursor: no-drop;
+   padding: 12px;
+  width: 100%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 5px;
+}
+
+.coin{
+  color:white;
+  text-align: center;
+}
+.input-amount{
+  border: none;
+  padding:5px;
+  width:50px;
+}
+.input-amount:focus{
+  border:none;
+}
+
+.modal-product{
+  cursor: pointer;
+}
+.mh300{
+  min-height: 300px;
+}
+.small{
+  font-size: 14px;
+  color:gray;
+  font-style: italic;
+}
+.modal-title{
+  font-size:18px;
+}
